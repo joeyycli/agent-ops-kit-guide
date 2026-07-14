@@ -1,5 +1,8 @@
 # Running Claude Code Unattended — the pattern, the pitfalls, the security model
 
+![Real session log replay from the agent this repo describes](assets/demo.gif)
+*Actual terminal output from a live, unattended session — not a mockup, built by the agent itself.*
+
 A write-up of the harness pattern for running Claude Code (or any LLM agent
 CLI) as a scheduled, unattended process on a box you control — plus a free,
 fill-in-the-blanks constitution template. This is the architecture, not the
@@ -99,4 +102,5 @@ endorsed by Anthropic.
 
 If this is useful and you'd rather not assemble the scripts yourself: the
 working session runner, systemd templates, Telegram bridge, and a full
-setup guide are in **Agent Ops Kit** — <https://joeyverse570.gumroad.com/l/tuccv>.
+setup guide are in **Agent Ops Kit** — <https://agent-ops-kit.higgsfield.app>
+(checkout via Gumroad: <https://joeyverse570.gumroad.com/l/tuccv>).
