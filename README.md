@@ -102,5 +102,6 @@ endorsed by Anthropic.
 
 If this is useful and you'd rather not assemble the scripts yourself: the
 working session runner, systemd templates, Telegram bridge, and a full
-setup guide are in **Agent Ops Kit** — <https://agent-ops-kit.higgsfield.app>
+setup guide are in **Agent Ops Kit** — <https://agentopskit.dev>
 (checkout via Gumroad: <https://joeyverse570.gumroad.com/l/tuccv>).
+
