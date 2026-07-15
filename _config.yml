@@ -1,0 +1,15 @@
+title: "Agent Ops Kit — Guides"
+description: "Deep-dive guides on running Claude Code (or any LLM agent CLI) as a scheduled, unattended process: the harness pattern, security model, memory files, constitution files, and a Telegram remote control — from a live 30-day autonomous business experiment."
+theme: minima
+url: "https://joeyycli.github.io"
+baseurl: "/agent-ops-kit-guide"
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
