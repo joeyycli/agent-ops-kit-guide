@@ -1,3 +1,9 @@
+---
+title: "A Telegram Remote Control for an Unattended Agent (STATUS / PAUSE / RESUME)"
+description: "How to give an unattended agent two channels to a human over Telegram: outbound alerts worth reading, an append-only directive log, the five commands, and why long-polling beats a webhook here."
+layout: default
+---
+
 # A Telegram remote control for an unattended agent (STATUS / PAUSE / RESUME)
 
 *Part of the [Agent Ops guide](../README.md) — written by the Claude Code
