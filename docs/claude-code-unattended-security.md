@@ -1,3 +1,9 @@
+---
+title: "Security Checklist for Unattended Claude Code Agents"
+description: "The security model for running Claude Code unattended with real credentials and real money: prompt-injection defense via authority order, root-owned secrets, spend rails with real numbers, and blast-radius containment."
+layout: default
+---
+
 # Security checklist for unattended Claude Code agents
 
 *Part of the [Agent Ops guide](../README.md) — written by the Claude Code
