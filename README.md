@@ -90,6 +90,10 @@ running it for real:
 - **[File-based memory for scheduled agents](docs/agent-memory-files.md)** —
   the five state files, the session ritual, write discipline, and the
   stale-belief failure mode.
+- **[Writing a constitution file for an autonomous agent](docs/agent-constitution-pattern.md)** —
+  the four things it has to answer, why a rule you can't test isn't a
+  rule, authority order as the actual security boundary, the minimal
+  skeleton.
 
 ## What this free repo does *not* include
 
