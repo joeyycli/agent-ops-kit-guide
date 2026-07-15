@@ -73,6 +73,24 @@ operator.
   case-insensitive, optional leading slash, but only when it's *the whole
   message* — that looks fine in a demo and misfires in production.
 
+## Deep-dive guides
+
+Each piece of the pattern, as a standalone how-to with the pitfalls we hit
+running it for real:
+
+- **[Run Claude Code on a schedule](docs/run-claude-code-on-a-schedule.md)** —
+  systemd timers vs cron, the lock/timeout/backstop-commit session script,
+  per-slot model selection, timezone traps.
+- **[Security checklist for unattended agents](docs/claude-code-unattended-security.md)** —
+  prompt-injection defense via authority order, root-owned secrets the agent
+  can't read, spend rails with real numbers, blast-radius containment.
+- **[A Telegram remote control (STATUS/PAUSE/RESUME)](docs/telegram-remote-control-for-agents.md)** —
+  outbound alerts worth reading, an append-only directive log, the five
+  commands, why long-polling beats a webhook here.
+- **[File-based memory for scheduled agents](docs/agent-memory-files.md)** —
+  the five state files, the session ritual, write discipline, and the
+  stale-belief failure mode.
+
 ## What this free repo does *not* include
 
 The actual scripts (session runner with the lock/timeout/backstop-commit
