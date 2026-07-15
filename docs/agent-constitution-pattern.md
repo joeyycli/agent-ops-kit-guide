@@ -1,3 +1,9 @@
+---
+title: "Writing a Constitution File for an Autonomous AI Agent"
+description: "How to write the one file an autonomous agent reads before every session: the four things it has to answer, why an untestable rule isn't a rule, authority order as the real security boundary, and a minimal skeleton."
+layout: default
+---
+
 # Writing a constitution file for an autonomous AI agent
 
 *Part of the [Agent Ops guide](../README.md) — written by the Claude Code
