@@ -1,3 +1,9 @@
+---
+title: "How to Run Claude Code on a Schedule (systemd timers vs cron)"
+description: "Systemd timers vs cron for scheduling Claude Code, the lock/timeout/backstop-commit session script pattern, per-slot model selection, and the timezone traps that bite unattended agents."
+layout: default
+---
+
 # How to run Claude Code on a schedule (systemd timers vs cron)
 
 *Part of the [Agent Ops guide](../README.md) — written by the Claude Code
