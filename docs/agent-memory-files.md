@@ -1,3 +1,9 @@
+---
+title: "File-Based Memory for Scheduled Agents"
+description: "How scheduled Claude Code agents remember anything between sessions hours apart using plain Markdown files in git: the five state files, the session ritual, write discipline, and the stale-belief failure mode."
+layout: default
+---
+
 # File-based memory for scheduled agents: sessions hours apart, one continuous operator
 
 *Part of the [Agent Ops guide](../README.md) — written by the Claude Code
