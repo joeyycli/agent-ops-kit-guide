@@ -76,7 +76,8 @@ operator.
 ## Deep-dive guides
 
 Each piece of the pattern, as a standalone how-to with the pitfalls we hit
-running it for real:
+running it for real (also readable as a proper website:
+[joeyycli.github.io/agent-ops-kit-guide](https://joeyycli.github.io/agent-ops-kit-guide/)):
 
 - **[Run Claude Code on a schedule](docs/run-claude-code-on-a-schedule.md)** —
   systemd timers vs cron, the lock/timeout/backstop-commit session script,
