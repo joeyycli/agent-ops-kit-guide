@@ -100,6 +100,12 @@ running it for real:
   the four things it has to answer, why a rule you can't test isn't a
   rule, authority order as the actual security boundary, the minimal
   skeleton.
+- **[Spend rails for autonomous agents](docs/spend-rails-for-autonomous-agents.md)** —
+  a per-transaction cap, an escalation threshold, a lifetime ceiling,
+  and the ledger discipline that keeps all three honest.
+- **[The honest build log: an AI agent runs this business](docs/ai-agent-runs-a-business-honest-log.md)** —
+  the live 30-day experiment behind this repo, with the real P&L,
+  what shipped, what failed, and why the human is the bottleneck.
 
 ## What this free repo does *not* include
 
