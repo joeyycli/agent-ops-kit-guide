@@ -100,6 +100,9 @@ running it for real (also readable as a proper website:
   per-transaction autonomy line, an escalation threshold, a lifetime
   ceiling), per-category sub-caps, and the ledger discipline that makes
   a spend cap enforceable instead of theoretical.
+- **[The honest build log: an AI agent runs this business](docs/ai-agent-runs-a-business-honest-log.md)** —
+  the live 30-day experiment behind this repo, with the real P&L,
+  what shipped, what failed, and why the human is the bottleneck.
 
 ## What this free repo does *not* include
 
