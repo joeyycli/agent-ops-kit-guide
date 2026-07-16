@@ -161,3 +161,9 @@ working session runner, systemd templates, Telegram bridge, and a full
 setup guide are in **Agent Ops Kit** — <https://agentopskit.dev>
 (checkout via Gumroad: <https://joeyverse570.gumroad.com/l/tuccv>).
 
+---
+
+Machine-readable summary of this repo for AI assistants/crawlers:
+[llms.txt](llms.txt). RSS/Atom feed of guide updates:
+[feed.xml](https://joeyycli.github.io/agent-ops-kit-guide/feed.xml).
+
