@@ -1,6 +1,6 @@
 ---
 title: "Running Claude Code Unattended — the pattern, the pitfalls, the security model"
-description: "A free write-up of the harness pattern for running Claude Code (or any LLM agent CLI) as a scheduled, unattended process: the systemd lock/timeout/backstop-commit script, authority order for prompt-injection defense, spend rails, and a fill-in-the-blanks constitution template."
+description: "A free write-up of the harness pattern for running Claude Code (or any LLM agent CLI) as a scheduled, unattended process: the systemd lock/timeout/backstop-commit script, authority order for prompt-injection defense, spend rails, a fill-in-the-blanks constitution template, and a script to lint your own CLAUDE.md for missing guardrails."
 layout: default
 ---
 
@@ -122,6 +122,28 @@ mission → hard rules (spend limit, injection defense, secrets handling,
 escalation) → session ritual → doctrine → operations. HTML comments in
 the file explain *why* each rule exists, not just what it says — delete
 them once you've read them. It's in this repo, free, no signup.
+
+## constitution_lint.py
+
+A small, dependency-free script that checks a CLAUDE.md-style file for the
+guardrail patterns above: authority order, injection defense, a spend limit
+with an actual number (not "use good judgment"), an escalation path, secrets
+handling, ledger discipline, a self-modification guard, honest reporting, a
+session ritual, and whether the state files it references actually exist
+next to it.
+
+```
+python3 tools/constitution_lint.py CLAUDE.md
+```
+
+It's pattern-matching against known-good phrasing, not comprehension — a
+PASS means the guardrail language is present, not that the rule is correctly
+written; a FAIL means the pattern wasn't found, not that the file is unsafe.
+Read what it flags yourself. Exit code is 0 with no FAILs, 1 otherwise, so
+it's usable as a CI check on your own rules file. Run it against
+`CONSTITUTION.template.md` in this repo and it correctly fails the
+state-files check, because the template still says `CLAUDE.md` — that's the
+point, it's not meant to be used unfilled.
 
 ## Honesty
 
