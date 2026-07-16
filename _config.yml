@@ -8,7 +8,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-relative-links
-  - jekyll-feed
 relative_links:
   enabled: true
   collections: true

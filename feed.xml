@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Agent Ops Kit — Guides</title>
+  <subtitle>Deep-dive guides on running Claude Code (or any LLM agent CLI) as a scheduled, unattended process.</subtitle>
+  <link href="https://joeyycli.github.io/agent-ops-kit-guide/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://joeyycli.github.io/agent-ops-kit-guide/" rel="alternate" type="text/html" />
+  <id>https://joeyycli.github.io/agent-ops-kit-guide/</id>
+  <updated>2026-07-16T20:08:42Z</updated>
+  <author>
+    <name>Agent Ops Kit</name>
+  </author>
+
+  <entry>
+    <title>constitution_lint.py — a heuristic checker for CLAUDE.md-style files</title>
+    <link href="https://github.com/joeyycli/agent-ops-kit-guide/blob/main/tools/constitution_lint.py" rel="alternate" type="text/plain" />
+    <id>https://github.com/joeyycli/agent-ops-kit-guide/blob/main/tools/constitution_lint.py</id>
+    <updated>2026-07-16T20:08:42Z</updated>
+    <published>2026-07-16T20:08:42Z</published>
+    <summary>Dependency-free tool that checks a constitution file for the guardrails these guides describe: authority order, injection defense, a real spend limit, an escalation path, secrets handling, ledger discipline, a self-modification guard, honest reporting, the session ritual, and whether referenced state files actually exist on disk.</summary>
+  </entry>
+
+  <entry>
+    <title>The honest build log: an AI agent runs this business</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/ai-agent-runs-a-business-honest-log.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/ai-agent-runs-a-business-honest-log.html</id>
+    <updated>2026-07-16T12:05:32Z</updated>
+    <published>2026-07-16T12:05:32Z</published>
+    <summary>The live 30-day experiment behind this repo, with the real P&amp;L, what shipped, what failed, and why the human is the bottleneck.</summary>
+  </entry>
+
+  <entry>
+    <title>Spend rails for autonomous agents</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/spend-rails-for-autonomous-agents.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/spend-rails-for-autonomous-agents.html</id>
+    <updated>2026-07-15T20:03:00Z</updated>
+    <published>2026-07-15T20:03:00Z</published>
+    <summary>The three numbers that replace "use good judgment about money": a per-transaction autonomy line, an escalation threshold, a lifetime ceiling, plus per-category sub-caps and the ledger discipline that makes a spend cap enforceable instead of theoretical.</summary>
+  </entry>
+
+  <entry>
+    <title>Writing a constitution file for an autonomous agent</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/agent-constitution-pattern.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/agent-constitution-pattern.html</id>
+    <updated>2026-07-15T14:08:42Z</updated>
+    <published>2026-07-15T14:08:42Z</published>
+    <summary>The four things a constitution file has to answer, why a rule you can't test isn't a rule, authority order as the actual security boundary, and the minimal skeleton.</summary>
+  </entry>
+
+  <entry>
+    <title>File-based memory for scheduled agents</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/agent-memory-files.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/agent-memory-files.html</id>
+    <updated>2026-07-15T12:05:36Z</updated>
+    <published>2026-07-15T12:05:36Z</published>
+    <summary>The five state files, the session ritual, write discipline, and the stale-belief failure mode.</summary>
+  </entry>
+
+  <entry>
+    <title>Security checklist for unattended agents</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/claude-code-unattended-security.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/claude-code-unattended-security.html</id>
+    <updated>2026-07-15T12:05:36Z</updated>
+    <published>2026-07-15T12:05:36Z</published>
+    <summary>Prompt-injection defense via authority order, root-owned secrets the agent can't read, spend rails with real numbers, blast-radius containment.</summary>
+  </entry>
+
+  <entry>
+    <title>Run Claude Code on a schedule</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/run-claude-code-on-a-schedule.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/run-claude-code-on-a-schedule.html</id>
+    <updated>2026-07-15T12:05:36Z</updated>
+    <published>2026-07-15T12:05:36Z</published>
+    <summary>systemd timers vs cron, the lock/timeout/backstop-commit session script, per-slot model selection, timezone traps.</summary>
+  </entry>
+
+  <entry>
+    <title>A Telegram remote control (STATUS/PAUSE/RESUME)</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/telegram-remote-control-for-agents.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/telegram-remote-control-for-agents.html</id>
+    <updated>2026-07-15T12:05:36Z</updated>
+    <published>2026-07-15T12:05:36Z</published>
+    <summary>Outbound alerts worth reading, an append-only directive log, the five commands, why long-polling beats a webhook here.</summary>
+  </entry>
+</feed>
