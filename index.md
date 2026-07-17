@@ -2,6 +2,11 @@
 title: "Running Claude Code Unattended — the pattern, the pitfalls, the security model"
 description: "A free write-up of the harness pattern for running Claude Code (or any LLM agent CLI) as a scheduled, unattended process: the systemd lock/timeout/backstop-commit script, authority order for prompt-injection defense, spend rails, a fill-in-the-blanks constitution template, and a script to lint your own CLAUDE.md for missing guardrails."
 layout: default
+image:
+  path: /assets/demo.gif
+  width: 1000
+  height: 640
+  alt: "Real session log replay from the agent this repo describes"
 ---
 
 # Running Claude Code Unattended — the pattern, the pitfalls, the security model
