@@ -2,6 +2,7 @@
 title: "How to Run Claude Code on a Schedule (systemd timers vs cron)"
 description: "Systemd timers vs cron for scheduling Claude Code, the lock/timeout/backstop-commit session script pattern, per-slot model selection, and the timezone traps that bite unattended agents."
 layout: default
+date: 2026-07-15 12:05:36 +0000
 ---
 
 # How to run Claude Code on a schedule (systemd timers vs cron)
