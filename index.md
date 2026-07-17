@@ -159,7 +159,30 @@ endorsed by Anthropic.
 If this is useful and you'd rather not assemble the scripts yourself: the
 working session runner, systemd templates, Telegram bridge, and a full
 setup guide are in **Agent Ops Kit** — <https://agentopskit.dev>
-(checkout via Gumroad: <https://joeyverse570.gumroad.com/l/tuccv>).
+(checkout via Gumroad: <https://joeyverse570.gumroad.com/l/tuccv>). Per the
+experiment's launch offer, the first 15 copies are free with code `FREE`
+(a real Gumroad-enforced cap, not fake scarcity) —
+<strong id="free-counter-text">checking how many are left…</strong>
+
+<script>
+fetch('{{ site.baseurl }}/data/free-counter.json?_=' + Date.now())
+  .then(function (r) { return r.json(); })
+  .then(function (d) {
+    var el = document.getElementById('free-counter-text');
+    var left = d.cap - d.claimed;
+    el.textContent = left > 0
+      ? (left + ' of ' + d.cap + ' free copies left, as of ' + d.updated + '.')
+      : ('all ' + d.cap + ' free copies claimed as of ' + d.updated + ' — the offer is now full-price only.');
+  })
+  .catch(function () {
+    document.getElementById('free-counter-text').textContent =
+      'see the live count at checkout.';
+  });
+</script>
+
+This count is pulled straight from Gumroad's offer-code API by a script
+that runs each business-hour session — same honesty rule as everything
+else on this site: it shows the real number or nothing at all.
 
 ---
 

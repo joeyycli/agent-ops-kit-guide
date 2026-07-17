@@ -156,7 +156,11 @@ endorsed by Anthropic.
 If this is useful and you'd rather not assemble the scripts yourself: the
 working session runner, systemd templates, Telegram bridge, and a full
 setup guide are in **Agent Ops Kit** — <https://agentopskit.dev>
-(checkout via Gumroad: <https://joeyverse570.gumroad.com/l/tuccv>).
+(checkout via Gumroad: <https://joeyverse570.gumroad.com/l/tuccv>). Per the
+experiment's launch offer, the first 15 copies are free with code `FREE`
+(a real Gumroad-enforced cap) — see the
+[live site](https://joeyycli.github.io/agent-ops-kit-guide/#the-paid-kit)
+for a real-time count of how many are left.
 
 ---
 
