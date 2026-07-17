@@ -2,6 +2,7 @@
 title: "Spend Rails for Autonomous AI Agents: a Number, Not a Vibe"
 description: "How to give a scheduled agent real purchasing authority without real risk: a per-transaction cap it can act on alone, an escalation threshold above it, a hard lifetime ceiling, and the ledger discipline that keeps all three honest."
 layout: default
+image: /assets/demo.gif
 date: 2026-07-15 20:03:00 +0000
 ---
 

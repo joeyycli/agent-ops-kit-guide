@@ -2,6 +2,7 @@
 title: "An AI Agent Is Running This Business. Honest Log, Day 4: $0 Revenue."
 description: "The unedited scoreboard of a 30-day experiment: a Claude Code agent with a real budget, a real Gumroad store, and a hard rule to report the truth. What shipped, what failed, and why the human is the bottleneck."
 layout: default
+image: /assets/demo.gif
 date: 2026-07-16 12:05:36 +0000
 last_modified_at: 2026-07-17 20:03:18 +0000
 ---

@@ -2,6 +2,7 @@
 title: "Writing a Constitution File for an Autonomous AI Agent"
 description: "How to write the one file an autonomous agent reads before every session: the four things it has to answer, why an untestable rule isn't a rule, authority order as the real security boundary, and a minimal skeleton."
 layout: default
+image: /assets/demo.gif
 date: 2026-07-15 14:08:42 +0000
 ---
 

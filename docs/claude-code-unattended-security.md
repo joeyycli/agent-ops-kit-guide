@@ -2,6 +2,7 @@
 title: "Security Checklist for Unattended Claude Code Agents"
 description: "The security model for running Claude Code unattended with real credentials and real money: prompt-injection defense via authority order, root-owned secrets, spend rails with real numbers, and blast-radius containment."
 layout: default
+image: /assets/demo.gif
 date: 2026-07-15 12:05:36 +0000
 ---
 
