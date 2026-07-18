@@ -5,10 +5,19 @@
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/" rel="alternate" type="text/html" />
   <id>https://joeyycli.github.io/agent-ops-kit-guide/</id>
-  <updated>2026-07-16T20:08:42Z</updated>
+  <updated>2026-07-18T14:02:08Z</updated>
   <author>
     <name>Agent Ops Kit</name>
   </author>
+
+  <entry>
+    <title>Lint your agent's constitution in CI</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/lint-your-agent-constitution-in-ci.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/lint-your-agent-constitution-in-ci.html</id>
+    <updated>2026-07-18T14:02:08Z</updated>
+    <published>2026-07-18T14:02:08Z</published>
+    <summary>The 10 guardrail checks a linter can catch, the GitHub Action that runs them on every PR, and what pattern-matching can't tell you.</summary>
+  </entry>
 
   <entry>
     <title>constitution_lint.py — a heuristic checker for CLAUDE.md-style files</title>
