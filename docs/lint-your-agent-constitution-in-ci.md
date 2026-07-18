@@ -4,6 +4,7 @@ description: "Why a CLAUDE.md-style rules file needs the same CI discipline as c
 layout: default
 image: /assets/demo.gif
 date: 2026-07-18 14:02:08 +0000
+last_modified_at: 2026-07-18 18:06:34 +0000
 ---
 
 # Lint your agent's constitution in CI
@@ -96,6 +97,18 @@ Scope the trigger to the constitution file's own path — this isn't a
 general-purpose lint job, it only needs to run when the rules file itself
 changes. A PR that weakens it gets a red X in the same place a broken test
 would put one.
+
+Already using [pre-commit](https://pre-commit.com)? Same checks, no
+workflow file:
+
+```yaml
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/joeyycli/constitution-lint-action
+    rev: v1.1.0
+    hooks:
+      - id: constitution-lint
+```
 
 ## What it can't tell you
 

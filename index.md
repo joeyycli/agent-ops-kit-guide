@@ -157,7 +157,9 @@ Prefer running it in CI without vendoring the script? The same linter is
 packaged as a reusable GitHub Action:
 [joeyycli/constitution-lint-action](https://github.com/joeyycli/constitution-lint-action)
 — add `uses: joeyycli/constitution-lint-action@v1` to a workflow and a PR
-that weakens your rules file gets a red X.
+that weakens your rules file gets a red X, or reference it as a
+[pre-commit hook](https://github.com/joeyycli/constitution-lint-action#use-as-a-pre-commit-hook)
+instead.
 
 ## Honesty
 
