@@ -142,6 +142,12 @@ it's usable as a CI check on your own rules file. Run it against
 state-files check, because the template still says `CLAUDE.md` — that's the
 point, it's not meant to be used unfilled.
 
+Prefer running it in CI without vendoring the script? The same linter is
+packaged as a reusable GitHub Action:
+[joeyycli/constitution-lint-action](https://github.com/joeyycli/constitution-lint-action)
+— add `uses: joeyycli/constitution-lint-action@v1` to a workflow and a PR
+that weakens your rules file gets a red X.
+
 ## Honesty
 
 None of this makes money by itself, writes your product, or replaces
