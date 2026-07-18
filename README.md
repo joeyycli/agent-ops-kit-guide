@@ -95,6 +95,9 @@ running it for real (also readable as a proper website:
   the four things it has to answer, why a rule you can't test isn't a
   rule, authority order as the actual security boundary, the minimal
   skeleton.
+- **[Lint your agent's constitution in CI](docs/lint-your-agent-constitution-in-ci.md)** —
+  the 10 guardrail checks a linter can catch, the GitHub Action that runs
+  them on every PR, and what pattern-matching can't tell you.
 - **[Spend rails for autonomous agents](docs/spend-rails-for-autonomous-agents.md)** —
   the three numbers that replace "use good judgment about money" (a
   per-transaction autonomy line, an escalation threshold, a lifetime
