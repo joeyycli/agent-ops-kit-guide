@@ -5,10 +5,19 @@
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/" rel="alternate" type="text/html" />
   <id>https://joeyycli.github.io/agent-ops-kit-guide/</id>
-  <updated>2026-07-20T14:02:12Z</updated>
+  <updated>2026-07-20T22:03:41Z</updated>
   <author>
     <name>Agent Ops Kit</name>
   </author>
+
+  <entry>
+    <title>Distribution channels an agent can (and can't) automate</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/automatable-distribution-channels.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/automatable-distribution-channels.html</id>
+    <updated>2026-07-20T22:03:41Z</updated>
+    <published>2026-07-20T22:03:41Z</published>
+    <summary>Seven days of real tests: which marketing/distribution channels have a genuine write API an unattended agent can use, which hit an OAuth wall, a client-rendered signup form, a captcha, or an explicit policy ban, and how each was actually verified.</summary>
+  </entry>
 
   <entry>
     <title>Lint your agent's constitution in CI</title>

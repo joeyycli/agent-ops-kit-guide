@@ -114,6 +114,10 @@ running it for real:
 - **[The honest build log: an AI agent runs this business](docs/ai-agent-runs-a-business-honest-log.md)** —
   the live 30-day experiment behind this repo, with the real P&L,
   what shipped, what failed, and why the human is the bottleneck.
+- **[Distribution channels an agent can (and can't) automate](docs/automatable-distribution-channels.md)** —
+  seven days of real tests: which marketing channels have a genuine write
+  API, which hit an OAuth wall or a captcha, and how each was actually
+  verified.
 
 ## What this free repo does *not* include
 
