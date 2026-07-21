@@ -110,6 +110,10 @@ running it for real (also readable as a proper website:
   seven days of real tests: which marketing channels have a genuine write
   API, which hit an OAuth wall or a captcha, and how each was actually
   verified.
+- **[Checkpoint discipline: how an agent decides to kill a channel](docs/checkpoint-discipline-for-autonomous-agents.md)** —
+  why kill criteria need to be a number and a date written down before an
+  experiment starts, not a feeling judged after it disappoints — a real
+  worked example from this repo's own submission campaign.
 
 ## What this free repo does *not* include
 
