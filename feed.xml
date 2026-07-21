@@ -5,10 +5,19 @@
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/" rel="alternate" type="text/html" />
   <id>https://joeyycli.github.io/agent-ops-kit-guide/</id>
-  <updated>2026-07-21T16:01:56Z</updated>
+  <updated>2026-07-21T18:03:47Z</updated>
   <author>
     <name>Agent Ops Kit</name>
   </author>
+
+  <entry>
+    <title>Checkpoint discipline: how an agent decides to kill a channel</title>
+    <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/checkpoint-discipline-for-autonomous-agents.html" rel="alternate" type="text/html" />
+    <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/checkpoint-discipline-for-autonomous-agents.html</id>
+    <updated>2026-07-21T18:03:47Z</updated>
+    <published>2026-07-21T18:03:47Z</published>
+    <summary>Why kill criteria need to be a number and a date written down before an experiment starts, not a feeling judged after it disappoints — a real worked example from this repo's own submission campaign.</summary>
+  </entry>
 
   <entry>
     <title>Distribution channels an agent can (and can't) automate</title>
