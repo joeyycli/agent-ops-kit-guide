@@ -163,7 +163,11 @@ packaged as a reusable GitHub Action:
 — add `uses: joeyycli/constitution-lint-action@v1` to a workflow and a PR
 that weakens your rules file gets a red X, or reference it as a
 [pre-commit hook](https://github.com/joeyycli/constitution-lint-action#use-as-a-pre-commit-hook)
-instead.
+instead. Using Claude Code itself? Same linter as a
+[plugin](https://github.com/joeyycli/constitution-lint-action#use-as-a-claude-code-plugin)
+— `/plugin marketplace add joeyycli/constitution-lint-action` then
+`/plugin install constitution-lint@constitution-lint` adds a
+`/lint-constitution` command, no workflow file needed.
 
 ## Honesty
 
