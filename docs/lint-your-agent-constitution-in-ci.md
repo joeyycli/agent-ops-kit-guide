@@ -4,7 +4,7 @@ description: "Why a CLAUDE.md-style rules file needs the same CI discipline as c
 layout: default
 image: /assets/demo.gif
 date: 2026-07-18 14:02:08 +0000
-last_modified_at: 2026-07-18 18:06:34 +0000
+last_modified_at: 2026-07-21 14:01:05 +0000
 ---
 
 # Lint your agent's constitution in CI
@@ -109,6 +109,21 @@ repos:
     hooks:
       - id: constitution-lint
 ```
+
+Using [Claude Code](https://claude.com/claude-code) itself? The same linter
+ships as a plugin, adding a `/lint-constitution` command — no workflow file,
+no pre-commit config, just the CLI:
+
+```
+/plugin marketplace add joeyycli/constitution-lint-action
+/plugin install constitution-lint@constitution-lint
+```
+
+Then `/lint-constitution` lints the `CLAUDE.md` in your working directory
+(or a passed path) and explains any failing check, for ~31 always-on tokens
+per session. The repo doubles as its own marketplace — no directory listing
+or signup needed, the same decentralized distribution model pre-commit uses
+for its `repo:` references above.
 
 ## What it can't tell you
 
