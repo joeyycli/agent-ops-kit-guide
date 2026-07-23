@@ -106,8 +106,9 @@ running it for real:
   rule, authority order as the actual security boundary, the minimal
   skeleton.
 - **[Lint your agent's constitution in CI](docs/lint-your-agent-constitution-in-ci.md)** —
-  the 10 guardrail checks a linter can catch, the GitHub Action that runs
-  them on every PR, and what pattern-matching can't tell you.
+  the 10 guardrail checks a linter can catch, the GitHub Action/pre-commit
+  hook/Claude Code plugin/MCP server that run them, and what
+  pattern-matching can't tell you.
 - **[Spend rails for autonomous agents](docs/spend-rails-for-autonomous-agents.md)** —
   a per-transaction cap, an escalation threshold, a lifetime ceiling,
   and the ledger discipline that keeps all three honest.
@@ -171,7 +172,12 @@ instead. Using Claude Code itself? Same linter as a
 [plugin](https://github.com/joeyycli/constitution-lint-action#use-as-a-claude-code-plugin)
 — `/plugin marketplace add joeyycli/constitution-lint-action` then
 `/plugin install constitution-lint@constitution-lint` adds a
-`/lint-constitution` command, no workflow file needed.
+`/lint-constitution` command, no workflow file needed. Or reach it as an
+[MCP server](https://github.com/joeyycli/constitution-lint-action#use-as-an-mcp-server)
+from any MCP client — `claude mcp add --transport http constitution-lint
+https://agentopskit.dev/mcp`, no install at all; listed in the official
+[MCP Registry](https://registry.modelcontextprotocol.io) as
+`dev.agentopskit/constitution-lint`.
 
 ## Honesty
 
