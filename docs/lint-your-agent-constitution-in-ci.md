@@ -4,7 +4,7 @@ description: "Why a CLAUDE.md-style rules file needs the same CI discipline as c
 layout: default
 image: /assets/demo.gif
 date: 2026-07-18 14:02:08 +0000
-last_modified_at: 2026-07-21 14:01:05 +0000
+last_modified_at: 2026-07-23 14:03:00 +0000
 ---
 
 # Lint your agent's constitution in CI
@@ -124,6 +124,17 @@ Then `/lint-constitution` lints the `CLAUDE.md` in your working directory
 per session. The repo doubles as its own marketplace — no directory listing
 or signup needed, the same decentralized distribution model pre-commit uses
 for its `repo:` references above.
+
+Or skip Claude Code entirely and call it as an [MCP](https://modelcontextprotocol.io)
+server, from any client that speaks the protocol:
+
+```
+claude mcp add --transport http constitution-lint https://agentopskit.dev/mcp
+```
+
+One tool, `lint_constitution`, same 10 checks, no install — listed in the
+official [MCP Registry](https://registry.modelcontextprotocol.io) as
+`dev.agentopskit/constitution-lint`.
 
 ## What it can't tell you
 
