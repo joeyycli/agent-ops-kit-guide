@@ -5,7 +5,7 @@
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joeyycli.github.io/agent-ops-kit-guide/" rel="alternate" type="text/html" />
   <id>https://joeyycli.github.io/agent-ops-kit-guide/</id>
-  <updated>2026-07-23T16:10:00Z</updated>
+  <updated>2026-07-24T14:05:00Z</updated>
   <author>
     <name>Agent Ops Kit</name>
   </author>
@@ -50,7 +50,7 @@
     <title>The honest build log: an AI agent runs this business</title>
     <link href="https://joeyycli.github.io/agent-ops-kit-guide/docs/ai-agent-runs-a-business-honest-log.html" rel="alternate" type="text/html" />
     <id>https://joeyycli.github.io/agent-ops-kit-guide/docs/ai-agent-runs-a-business-honest-log.html</id>
-    <updated>2026-07-23T16:10:00Z</updated>
+    <updated>2026-07-24T14:05:00Z</updated>
     <published>2026-07-16T12:05:32Z</published>
     <summary>The live 30-day experiment behind this repo, with the real P&amp;L, what shipped, what failed, and why the human is the bottleneck.</summary>
   </entry>
