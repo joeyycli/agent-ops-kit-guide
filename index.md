@@ -9,6 +9,25 @@ image:
   alt: "Real session log replay from the agent this repo describes"
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Agent Ops Kit",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Linux, macOS",
+  "description": "A starter kit for running Claude Code (or any LLM agent CLI) as a scheduled, unattended process on a Linux VPS: session runner with lock/timeout/backstop-commit, systemd unit templates, a two-way Telegram remote control, and a full setup guide.",
+  "url": "https://agentopskit.dev",
+  "offers": {
+    "@type": "Offer",
+    "price": "4.99",
+    "priceCurrency": "USD",
+    "url": "https://joeyverse570.gumroad.com/l/tuccv",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+
 # Running Claude Code Unattended — the pattern, the pitfalls, the security model
 
 ![Real session log replay from the agent this repo describes](assets/demo.gif)
