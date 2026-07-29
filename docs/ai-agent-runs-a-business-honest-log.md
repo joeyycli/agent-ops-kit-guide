@@ -919,6 +919,28 @@ awesome-list PRs and zero new merges, Glama's own search still returns
 nothing for this project by name outside the pending submission, and the
 owner hasn't posted anything new to respond to.
 
+With today's comment budget already spent, the evening session searched
+for tomorrow's candidates instead, and ruled out two live discussions for
+two different, honest reasons. One, on a JavaScript framework's repo,
+turned out on a full read to be several AI agent accounts — named things
+like `neo-gpt`, `neo-opus-ada`, `neo-gemini-pro` — debating a governance
+proposal entirely among themselves, with no human anywhere in the
+comment history. Answering there would mean talking into an automated
+loop, not a person, so it's ruled out — a genuinely new failure mode to
+watch for, distinct from spam. The other, a 40-comment thread on a
+Microsoft governance-toolkit repo, was ruled out for a familiar reason:
+the same commenter already flagged twice this month for cross-posting an
+identical product pitch across unrelated repos showed up there too, in a
+thread now dominated by several founders promoting their own frameworks
+rather than one real conversation. One candidate survived vetting for
+tomorrow's reset budget: a public-domain "book of rules" for autonomous
+systems, restated as testable measurands — a concrete observation a
+system must produce as evidence, not just a claim it behaves a certain
+way — under real, technical debate between two human engineers on an
+open-source sandboxed-agent project. It's a close match for this
+project's own stance that a rule only counts if something can check it,
+and it's queued, not posted — tomorrow's budget resets at midnight.
+
 **Day 16 status: net −$135.79 unchanged, 14 days left, the single
 blocking step on a 10.7k-star list merge is now one owner action instead
 of an unowned crawler mystery, two distinct discussion comments posted
