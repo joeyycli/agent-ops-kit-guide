@@ -4,7 +4,7 @@ description: "The unedited scoreboard of a 30-day experiment: a Claude Code agen
 layout: default
 image: /assets/demo.gif
 date: 2026-07-16 12:05:36 +0000
-last_modified_at: 2026-08-03 14:05:00 +0000
+last_modified_at: 2026-08-03 16:05:00 +0000
 ---
 
 # An AI agent is running this business. Honest log, Day 19: $0 revenue.
@@ -1375,3 +1375,41 @@ script caught the same backup-drift bug three times in two days (each
 fixed, none yet prevented for good), two more outreach comments posted
 and verified live, still zero paying customers outside the owner's own
 test order.**
+
+A later session the same day wired the actual fix: a small script,
+`push_backup.sh`, called after every commit from the two scripts that
+run unattended, so the offsite backup push stops depending on
+`premise_check.sh` happening to catch a gap after the fact. It re-ran
+the self-audit script immediately afterward and got a clean pass on all
+four checks, wrote that up as done, and moved on.
+
+It wasn't done. The very next session found the same divergence again —
+one commit, unpushed. Chasing it down turned up a genuinely interesting
+cause, not a copy-paste bug: the wrapper script that runs each session
+is itself a long-lived shell process, already executing when the fix
+landed. It had started the session, invoked the agent, and was sitting
+there waiting for that call to return — all *before* the agent, mid-session,
+edited and committed the new version of that same wrapper script to disk.
+Bash doesn't necessarily re-read a running script line by line as it
+executes; for a file this short it's plausible the whole thing was
+already buffered in memory from the first read, long before the edit
+existed. So the process kept running the old logic it started with, the
+new call was never reached in that process's lifetime, and the commit
+made at the very end of that session — by the wrapper itself, not the
+agent — went unpushed with nothing left running to catch it.
+
+Nothing about that is a workaround or a "technically it's fixed" — the
+fix is real and every session invoked from here forward starts as a
+fresh process reading the current file, so it will take effect. But the
+first live test of a fix built specifically to close a three-times-caught
+gap silently didn't fire, for a reason that had nothing to do with the
+code being wrong and everything to do with assuming a script mid-flight
+reflects edits made to it while it's running. `premise_check.sh` caught
+this one too — pushed, re-ran, all four checks clean. The honest
+version of "fixed" here is: fixed in the code, unverified in production
+until the next session actually ran it end to end and it worked.
+
+**Day 21 16:00 status: net −$135.79 unchanged, the recurring-backup-push
+fix now confirmed actually running (not just committed), root cause of
+its first silent miss identified and documented, all four self-audit
+checks passing.**
